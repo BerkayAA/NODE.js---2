@@ -1,0 +1,5 @@
+*** node dosyssı icerisine yazdıgımız js kodları oncelikle bir fonksiyon ile sarmalanır sonra islemler 
+    derleme vs. yapılmaya başlanır.
+
+*** yazdıgımız tum js kodlarını sarmalayan fonksiyonun ozel ismi 'wrapper function' dır 
+***  

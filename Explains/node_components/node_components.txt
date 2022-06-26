@@ -1,0 +1,8 @@
+
+
+
+==> node islevleri temelde 2 componente dayalıdır 
+    -> js v8 engine  - js and c++ , js kodunu bilgisayarın anlayabilecegi makine koduna cevirir 
+    -> libuv - c++ , asenkron server side islemlerin yapılmasını saglar - (event loop - thread pool)   
+
+    

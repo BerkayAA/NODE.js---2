@@ -1,0 +1,7 @@
+
+
+-> moduller herhangi bir dosyaya dahil edildikten sonra cache de tutulur ve habire habire yine gidilip 
+    hard bir sekilde sıfırdan dahil edilmez 
+
+bir defa require ettikten sonra 50 defa daha required etsekte ilk başta require edilen objenin aynısı 
+yapılan diger require islemlerinin sonucu olarak ortamda yaşamaya devam eder 

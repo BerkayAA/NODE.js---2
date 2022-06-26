@@ -1,0 +1,37 @@
+
+export olacak herhangi bir isimli-isimsiz class tanımlamak istemezsek export.function yontemi ile 
+export olacak tum classları tanımlayabiliriz 
+ 
+
+*** daha farklı bir export tanımı istersek *** 
+    
+    export.add = (a,b) => a + b;
+    export.divide = (a,b) => a \ b;
+    export.multiply = (a,b) => a * b;
+
+yaptıgımız bu modulun importlanmasında ise herhangi bir degişiklik yoktur 
+
+yaptıgımız bu farklı export classı tanımında isimli isimsiz herhangi bir class olmadıgı icin require edilmesi
+ve require objesinden farklı objeler tanımlaması da farklıdır 
+
+
+*** ORN: 
+
+const myModule2 = require('./test_module_2');
+const calculator2Object =  myModule2;
+ 
+
+==> Yapabilecegimiz bu farklı tanımlamada istersek tum fonksiyonların isimlerini kullanarak fonksiyonları 
+    isimleri ile beraber importlayabiliriz 
+
+    canst {add, multiply, divide } = require('./test_module_2');
+
+    -> bu sayede test_module_2 icindeki fonksiyonlar isimleri ile eşlşmiş olur (just in case keep in your mind)
+
+
+
+
+
+
+
+

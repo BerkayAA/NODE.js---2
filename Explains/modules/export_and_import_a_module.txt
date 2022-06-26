@@ -1,0 +1,40 @@
+
+
+--> kendi modullerimizi oluşturup yine kendi projelerimizde kullanabiliriz 
+
+
+*** ornek bir senario 
+---
+ class Calculator{
+    
+     add(a,b) {
+        return a+b;
+    }
+ }
+
+ module.exports = Calculator;
+---- 
+
+
+*** FARKLI BIR EXPORT SEKLI 
+    -> classa isim vermeden direk classı olustururken de export ettirebiliriz 
+
+ module.exports = class {
+    
+     add(a,b) {
+        return a+b;
+    }
+
+ };
+
+------ --> havalı bir kullanım diyelim 
+
+yukarıda da goruldugu gibi calculator dosyasının icerisinde bulundugu sayfayı import eden tarafa calculator 
+sınıfının gucunu katmıs olacagız 
+
+*** Custom class importlanırken onune ./ konarak islem yapılır  
+
+    const myModule = require('./test_module_1');  kendi custom moduleumuz oldugunu boyle ifade ederiz 
+    --- gozden kacmaması gereken module'u importlarken dosya ismini kullanıyoru klass ismi cok da onemli degil 
+
+
